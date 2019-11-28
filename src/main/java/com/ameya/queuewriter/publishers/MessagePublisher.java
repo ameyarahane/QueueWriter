@@ -1,6 +1,6 @@
-package com.ameya.messages.publisher;
+package com.ameya.queuewriter.publishers;
 
-import com.ameya.models.message.Message;
+import com.ameya.queuewriter.models.message.Message;
 
 /**
  * Interface for publishing instances of Message.

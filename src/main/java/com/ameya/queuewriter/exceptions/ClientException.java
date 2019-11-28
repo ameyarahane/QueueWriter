@@ -1,4 +1,4 @@
-package com.ameya.exceptions;
+package com.ameya.queuewriter.exceptions;
 
 /**
  * A non-retryable exception that indicates the cause is invalid conditions on the client side that need to be

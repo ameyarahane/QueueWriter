@@ -1,4 +1,4 @@
-package com.ameya.models.message;
+package com.ameya.queuewriter.models.message;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

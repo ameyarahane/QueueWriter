@@ -1,4 +1,4 @@
-package com.ameya.exceptions;
+package com.ameya.queuewriter.exceptions;
 
 /**
  * An exception class that covers all exception types not covered by the other exception classes. This is indicative of

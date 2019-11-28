@@ -1,14 +1,15 @@
-package com.ameya.messages.publisher;
+package com.ameya.queuewriter.publishers.impl;
 
 import com.amazonaws.AmazonServiceException;
 import com.amazonaws.services.sqs.AmazonSQS;
 import com.amazonaws.services.sqs.model.GetQueueUrlResult;
 import com.amazonaws.services.sqs.model.MessageAttributeValue;
 import com.amazonaws.services.sqs.model.SendMessageRequest;
-import com.ameya.exceptions.ClientException;
-import com.ameya.exceptions.InternalException;
-import com.ameya.exceptions.ServiceException;
-import com.ameya.models.message.Message;
+import com.ameya.queuewriter.exceptions.ClientException;
+import com.ameya.queuewriter.exceptions.InternalException;
+import com.ameya.queuewriter.exceptions.ServiceException;
+import com.ameya.queuewriter.models.message.Message;
+import com.ameya.queuewriter.publishers.MessagePublisher;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.apache.commons.collections4.MapUtils;

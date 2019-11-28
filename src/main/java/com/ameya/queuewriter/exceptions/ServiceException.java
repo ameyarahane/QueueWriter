@@ -1,4 +1,4 @@
-package com.ameya.exceptions;
+package com.ameya.queuewriter.exceptions;
 
 /**
  * An exception class that indicates the cause is something that went wrong on the service side that may be rectified by
