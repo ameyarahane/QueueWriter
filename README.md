@@ -36,6 +36,8 @@ Message publishers: The message publishers are under `com.ameya.queuewriter.publ
 There is no configuration file that has all the configurable values (Queue properties, credentials, HTTP port number, etc.)
 but can be created. 
 
+The API names are not nouns as is usually the case with RESTful API names. I am accustomed to naming them in a certain way and followed the same convention for this exercise.
+
 ### Use
 Note: All APIs require `Content-Type` to be set to `application/json`.
 
